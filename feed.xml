@@ -1,116 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>WOC Street Blog</title>
-    <link href="https://vincentlinsanity.github.io/woc-blog/feed.xml" rel="self" />
-    <link href="https://vincentlinsanity.github.io/woc-blog" />
-    <updated>2023-10-02T18:52:15-04:00</updated>
+    <title>WOC-Street</title>
+    <link href="https://wocstreet.com/blog/index.html/feed.xml" rel="self" />
+    <link href="https://wocstreet.com/blog/index.html" />
+    <updated>1970-01-01T08:00:00+08:00</updated>
     <author>
-        <name>WOC Street</name>
+        <name>Vincent</name>
     </author>
-    <id>https://vincentlinsanity.github.io/woc-blog</id>
+    <id>https://wocstreet.com/blog/index.html</id>
 
-    <entry>
-        <title>ChatGPT Predict Stock Price - 500% Returns from Researcher</title>
-        <author>
-            <name>WOC Street</name>
-        </author>
-        <link href="https://vincentlinsanity.github.io/woc-blog/chatgpt-predict-stock-price-500-returns-from-researcher/"/>
-        <id>https://vincentlinsanity.github.io/woc-blog/chatgpt-predict-stock-price-500-returns-from-researcher/</id>
-
-        <updated>2023-10-02T18:52:15-04:00</updated>
-            <summary>
-                <![CDATA[
-                    (The paper was updated on Sept 2023) Researchers from the University of Florida have released a research suggesting that the AI model ChatGPT can reliably predict stock market trends. Using public markets data and news from October 2021 to December 2022, their testing found that trading&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p><img loading="lazy" src="https://www.livemint.com/lm-img/img/2023/05/11/1600x900/1681457269666_1683816933012_1683816933237.JPG" alt="Now, ChatGPT to predict stock prices by analysing news headlines? Florida  Professor shows how | Mint" data-is-external-image="true"></p>
-<p>(The paper was updated on Sept 2023)</p>
-<p><br>Researchers from the University of Florida have released a <a href="https://vincentlinsanity.github.io/woc-blog/can-ai-predict-stock-returns-study-from-cornell-researchers/" target="_blank" rel="nofollow noopener noreferrer">research</a> suggesting that the AI model ChatGPT can reliably predict stock market trends. Using public markets data and news from October 2021 to December 2022, their testing found that trading models powered by ChatGPT could generate returns exceeding 500% in this period. This performance stands in stark contrast to the -12% return from buying and holding an S&amp;P 500 ETF during the same timeframe. The study also underscored ChatGPT's superior performance over other language models, including GPT-1, GPT-2, and BERT, as well as traditional sentiment analysis methods.</p>
-<p>Implications for the Financial Sector Prominent hedge funds like Two Sigma, DE Shaw, and Renaissance Technologies already integrate sentiment analysis into their trading algorithms. ChatGPT’s remarkable performance in interpreting news could ignite competition among funds eager to leverage Generative AI for an edge.</p>
-<h3><strong>The Evolution of Language Models</strong></h3>
-<h4><strong>Early Models: GPT-1, GPT-2, and BERT</strong></h4>
-<p>The first generation of language models, like GPT-1, GPT-2, and BERT, showed promise but lacked the complexity needed for reliable stock prediction. They were decent at understanding text but lacked nuanced interpretation.</p>
-<h4><strong>Introducing ChatGPT</strong></h4>
-<p>Fast forward to ChatGPT. This model, powered by GPT-3.5, offers a more nuanced understanding of language, setting the stage for groundbreaking research in predicting stock market trends.</p>
-<h3><strong>An Overview of the Study</strong></h3>
-<h4><strong>Methodology</strong></h4>
-<p>Exploring the Methodology The researchers adopted a robust backtesting approach to gauge the effectiveness of trading strategies driven by ChatGPT. They scrutinized a dataset of stock-focused headlines from October 2021 to December 2022, ensuring that none of the articles were in ChatGPT's training set.</p>
-<h4><strong>Research Team and Dataset</strong></h4>
-<p>By using web scraping methods, the team compiled 67,586 headlines related to 4,138 different companies. These headlines were then sorted for relevancy; only full articles and press releases were considered while eliminating any headlines specifically about stock gains or losses. Duplicate stories were also removed to maintain the novelty of the information used.</p>
-<h3><strong>Diving into the Methodology</strong></h3>
-<h4><strong>Web Scraping</strong></h4>
-<p>The team used web scraping techniques to collect headlines, ensuring none of the data overlapped with ChatGPT’s training set.</p>
-<h4><strong>Data Filtering</strong></h4>
-<p>The headlines were filtered to exclude stock-gain or stock-loss headlines and remove duplicates.</p>
-<h3><strong>Good News, Bad News, and Unknown</strong></h3>
-<h4><strong>The Power of Nuanced Reasoning</strong></h4>
-<p>The study employed a version of ChatGPT, specifically the one powered by GPT-3.5, to assess whether a headline signaled Good News, Bad News, or was neutral, along with brief justifications. For example, when faced with the headline, "Rimini Street Fined $630,000 in Case Against Oracle," ChatGPT provided an insightful analysis:. ChatGPT excels at discerning whether news is good, bad, or neutral, with detailed reasoning to back its classifications.</p>
-<h3><strong>Strategies and Their Results</strong></h3>
-<p><img loading="lazy" src="https://images.ctfassets.net/fxksiu7yxym3/6ZDEyXUBwqzFDugKiPtPQn/0b4fd61b22e649fd48334efabc9365b8/Screen_Shot_2023-05-10_at_11.13.53_AM.png" data-is-external-image="true"></p>
-<h4><strong>Long-Short Strategy</strong></h4>
-<p>The Long-Short strategy (buying companies with good news and short-selling those with bad news) yielded more than a 500% return. Impressive, right?</p>
-<h4><strong>Short-Only and Long-Only Strategies</strong></h4>
-<p>The Short-only strategy(short-selling companies with bad news) returned nearly 400%, while the Long-only strategy returned roughly 50%.</p>
-<h4><strong>Failed Strategies</strong></h4>
-<p>Not all was rosy. Strategies like "All News" hold and Market Value-Weight hold resulted in net losses.</p>
-<h3><strong>Benchmarking</strong></h3>
-<h4><strong>Comparison with Traditional Methods</strong></h4>
-<p>ChatGPT outshone traditional sentiment analysis methods, which often misinterpret the nuances in headlines.</p>
-<h4><strong>Outperforming Other Language Models</strong></h4>
-<p>Even older siblings like GPT-1 and GPT-2 couldn’t keep up. ChatGPT consistently outperformed them.</p>
-<h3><strong>Implications for Hedge Funds</strong></h3>
-<h4><strong>Established Firms</strong></h4>
-<p>Two Sigma, DE Shaw, and Renaissance Technologies should take note. The landscape is shifting.</p>
-<h4><strong>Boutique Hedge Funds</strong></h4>
-<p>Smaller hedge funds also stand to gain a lot by adopting AI-driven models like ChatGPT.<br><br></p>
-<h3><strong>A New Arms Race</strong></h3>
-<p>Generative AI like ChatGPT could ignite a new arms race in the financial sector. It’s like unleashing a lion in a dog race!</p>
-<h3><strong>Threats and Opportunities</strong></h3>
-<p>Companies specializing in sentiment analysis could find themselves outpaced by newer, more potent AI models.</p>
-<h3><strong>Retail Trading</strong></h3>
-<p>Retail investors, too, could benefit from ChatGPT’s ability to read between the lines. Online communities like r/WallStreetBets, known for deep-dive analyses and boastful posts about stock gains, could potentially utilize ChatGPT to enhance their trading strategies. After all, who wouldn't want a 500% return on their investment?</p>
-<h3><strong>Future Trends</strong></h3>
-<p>ARK Investment Management's Cathie Wood envisions a dynamic financial landscape, dominated by AI.</p>
-<h3><strong>The Skeptics</strong></h3>
-<p>Of course, some skeptics question the reliability of using AI in trading. Yet, the numbers speak for themselves.</p>
-<h3><strong>Why This Matters</strong></h3>
-<p>In an ever-changing world, staying ahead of the curve is not just beneficial—it’s essential. And AI, especially models like ChatGPT, are game-changers.</p>
-<h3><strong>Conclusion</strong></h3>
-<p>As the saying goes, numbers don't lie. The University of Florida's research on ChatGPT is just the tip of the iceberg. It offers an exciting glimpse into the future—a future where AI could very well dictate the ebbs and flows of the stock market. The future appears vibrant for the financial sector with generative AI taking the center stage. ARK Investment Management's Cathie Wood is particularly optimistic, as stated in her 2023 Big Ideas report, predicting that AI will significantly impact various industries and companies in the coming years.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Can AI Predict Stock Returns? Study from Cornell Researchers</title>
-        <author>
-            <name>WOC Street</name>
-        </author>
-        <link href="https://vincentlinsanity.github.io/woc-blog/can-ai-predict-stock-returns-study-from-cornell-researchers/"/>
-        <id>https://vincentlinsanity.github.io/woc-blog/can-ai-predict-stock-returns-study-from-cornell-researchers/</id>
-
-        <updated>2023-10-02T18:27:56-04:00</updated>
-            <summary>
-                <![CDATA[
-                    "For many years, financial journalism has been a cornerstone for investors from all walks of life. Researchers at Cornell University have now found that such news can also play a vital role in fueling the algorithms for a cutting-edge financial prediction model. In a study&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p> </p>
-<p>"For many years, financial journalism has been a cornerstone for investors from all walks of life. Researchers at Cornell University have now found that such news can also play a vital role in fueling the algorithms for a cutting-edge financial prediction model.</p>
-<p>In a study titled 'News-Based Sparse Machine Learning Models for Adaptive Asset Pricing,' published recently in the journal Data Science, the researchers amalgamate insights from machine learning, natural language processing (NLP), and finance. They have created an innovative machine learning framework that not only taps into stock and industry-specific data but also forecasts financial outcomes more accurately than traditional approaches.</p>
-<p>Martin Wells, the senior author of the study and Charles A. Alexander Professor of Statistical Sciences at Cornell, pointed out that a common critique of machine learning is its lack of interpretability. 'In many cases, scholars applying these extensive models don't fully comprehend the meaning of the generated outputs or the internal mechanics of the model. Our study takes advantage of textual data from news sources to construct machine learning models that allow for explicit understanding of key features,' Wells said.</p>
-<p>Liao Zhu, the paper’s lead author who transitioned into a finance industry role post-study, mentioned that their text analysis aids in 'data clustering.' This helps in organizing the otherwise messy outputs that algorithms often generate. 'We posit that financial news could be a more effective tool in comprehending the relationship between particular stocks and tradeable assets, like exchange-traded funds (ETFs),' Zhu explained.</p>
-<p>This study builds upon Zhu's earlier research and incorporates contributions from other scholars like Robert Jarrow and Peter (Haoxuan) Wu. While traditional statistical methods and sentiment analysis from text data have long been used for market predictions, this new research is groundbreaking. It proposes a fluid prediction model that marries both market and text data without relying solely on sentiment analysis.</p>
-<p>Instead of using sentiments from news, the researchers employ an algorithm that uses news text as a reference point to determine what assets or terms should be considered for each particular stock or industry. 'Our approach offers more targeted and industry-specific insights,' noted Zhu.</p>
-<p>To hone their models, the researchers ingested an extensive range of online financial news articles spanning from 2013 to 2019. They then employed algorithms to map out specific assets and terms linked to particular stocks and industries. Two distinct models emerged: the News Embedding UMAP Sparse Selection (NEUSS) model focuses on individual stock returns, while the News Sparse Encoder with Rationale (INSER) model zeroes in on industry-specific terminologies to make more accurate industry return predictions.</p>
-<p>For instance, NEUSS might infer that an ETF tracking the semiconductor sector is crucial for forecasting the returns of a tech company, but not for a company in the retail sector. Similarly, INSER might identify the term 'plant' as important within the energy sector but irrelevant for others like social media.</p>
-<p>Their approach proved successful. NEUSS outperformed the standard Fama-French 5-factor model by a margin of 50%, while INSER exceeded its benchmark by 10%, even without incorporating industry-specific data.</p>
-<p>Zhu and Wells both agree that the marriage of machine learning and various data types is transforming the landscape of financial analysis. 'The AI-driven transformation in finance is already a reality,' said Zhu, 'and our study serves as a stepping stone in this ongoing revolution.'"</p>
-<p><br><br>FAQs<br><br>1. What makes the Cornell research different from traditional financial models?<br>  - The study uses machine learning and news data to create more accurate and interpretable financial prediction models.<br><br>2. What is NEUSS?<br>  - It's a model developed in the study that focuses on predicting individual stock returns.<br><br>3. What is INSER?<br>  - INSER is another model from the study that focuses on industry-specific returns.<br><br>4. How do these models improve interpretability?<br>  - They leverage news data to make it easier to understand why a stock or an industry might perform a certain way.<br><br>5. Are these models available for public use?<br>  - The study is academic, and it's unclear when or if these models will be available for the general public.<br><br><br></p>
-            ]]>
-        </content>
-    </entry>
 </feed>
